@@ -1,11 +1,11 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "a32x-kernel",
+      "repo": "https://github.com/Ginochen0002/android_kernel_samsung_a32x.git",
+      "branch": "A326BXXU1AUA5",
+      "device": "a32x"
     },
-    "withKernelSU": true,
+    "withKernelSU": flase,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
