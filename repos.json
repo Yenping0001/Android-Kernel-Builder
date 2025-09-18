@@ -1,11 +1,11 @@
 [  {
     "kernelSource": {
       "name": "a32x-kernel",
-      "repo": "https://github.com/Ginochen0002/android_kernel_samsung_a32x.git",
-      "branch": "A326BXXU1AUA5",
+      "repo": "https://github.com/Yenping0001/android_kernel_samsung_a32x.git",
+      "branch": "A32x",
       "device": "a32x"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
