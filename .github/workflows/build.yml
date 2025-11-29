@@ -153,7 +153,7 @@ jobs:
           args: ${{ steps.generate-args.outputs.args }}
         run: |
           echo "PATH Variable: $PATH"
-          make ${args}
+          make O=out ARCH=arm64 -j$(nproc) V=1 W=all
 
       - name: "💛 Upload Image"
         uses: actions/upload-artifact@v4
